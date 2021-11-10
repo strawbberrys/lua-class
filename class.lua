@@ -46,4 +46,6 @@ local function new(class_name)
     return object
 end
 
-return class, new
+return function()
+    return class, new
+end
