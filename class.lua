@@ -1,9 +1,9 @@
 -- localize globals
 
-local assert = assert
-local type = type
-local setmetatable = setmetatable
-local getfenv = getfenv
+local assert = assert;
+local type = type;
+local setmetatable = setmetatable;
+local getfenv = getfenv;
 
 -- create class functions
 
