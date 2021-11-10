@@ -49,7 +49,7 @@ print(iphone.price) -- output: 1000
 
 ## Class Constructors
 Constructors are a special property of classes. They are a function which gets called whenever an object of the class is called. You can assign arguments to them which will be assigned when an object of the class is called.<br/>
-**The self keyword can be used inside of the constructor ~~as well as every other function in the class to access the current object.~~** ( i forgot to add it to every function, will be added very soon. )
+**The self keyword can be used inside of the constructor ~~as well as every other function in the class~~ to access the current object.** ( i forgot to add it to every function, will be added very soon. )
 
 ```lua
 class "phone" {
