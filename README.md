@@ -2,10 +2,10 @@
 a class module for lua using similar syntax to other languages
 
 ## Getting Started
-Require the module and assign it two variables, `class` and `new`.
+Require the module, call it, then assign it two variables, `class` and `new`.
 
 ```lua
-local class, new = require("class.lua")
+local class, new = require("class")()
 ```
 
 ## Declaring Classes
